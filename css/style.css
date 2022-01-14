@@ -200,7 +200,9 @@ nav {
 
 .contract-form{
     display: grid;
-    grid-template-columns:repeat(2,1fr);
+    /* grid-template-columns:repeat(2,1fr); */
+    grid-template-columns:repeat(2 ,1fr);
+
     gap:30px;
 }
 
@@ -225,4 +227,19 @@ nav {
     outline: none;
     border: 1px solid var(--primary-color);
 
+}
+
+/* footer style start */
+.footer{
+    /* height:5px; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 20px 10px;
+    padding: 10px auto 5px;
+}
+
+.footer small{
+    /* font-size:var(--p-font-size); */
+    font-family: inherit;
 }
