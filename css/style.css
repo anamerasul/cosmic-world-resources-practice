@@ -52,6 +52,14 @@ body{
     text-align:center;
 }
 
+.section-title h2{
+    display:inline-block;
+    font-size:var(--h2-font-size);
+    border-bottom: 2px solid var(--primary-color);
+    margin: 50px 0;
+    text-transform: uppercase;
+
+}
 
 
 /* header and banner style start */
@@ -128,14 +136,7 @@ nav {
 
  /* feature section css start  */
 
- .section-title h2{
-    display:inline-block;
-    font-size:var(--h2-font-size);
-    border-bottom: 2px solid var(--primary-color);
-    margin: 50px 0;
-    text-transform: uppercase;
 
-}
  .feature-card{
      display:grid;
      grid-template-columns:repeat(2,1fr);
@@ -167,5 +168,61 @@ nav {
     text-decoration:none;
     color:var(--primary-color);
 }
-    
+ 
 
+/* about section css start */
+
+
+
+/* gallery section css start */
+.gallery-item{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap:30px;
+}
+
+.photo{
+    max-width:300px;
+    max-height: 300px;
+    border: 2px solid var(--primary-color);
+    
+}
+
+.photo img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    
+}
+
+
+/* contract from css start  */
+
+.contract-form{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+
+.contract-from-left img{
+    width:100%;
+}
+
+.contract-from-right form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.text-field{
+    width:100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: var(--p-font-size);
+    font-family: inherit;
+    outline: none;
+    border: 1px solid var(--primary-color);
+
+}
