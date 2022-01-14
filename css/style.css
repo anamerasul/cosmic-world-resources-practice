@@ -172,6 +172,32 @@ nav {
 
 /* about section css start */
 
+.about-main{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:2em;
+    margin:20px 0 50px 0;
+}
+
+.about-main-left img{
+    width:100%;
+}
+
+.about-main-right{
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+
+.about-main-right h2{
+    font-size: 35px;
+}
+.about-main-right p{
+    margin: 25px 10px;
+    line-height: 1.5;
+}
 
 
 /* gallery section css start */
